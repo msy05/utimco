@@ -404,7 +404,7 @@ if __name__ == "__main__":
         data = load_csv_data("healthcare.csv")
         
         # Analyze a specific quarter
-        target_quarter = "201Q1"  # Change this to whatever quarter you want
+        target_quarter = "2016Q1"  # Change this to whatever quarter you want
         pe_stocks, peg_stocks = analyze_quarter(data, target_quarter)
         
         # You can also run individual functions:
